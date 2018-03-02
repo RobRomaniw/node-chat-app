@@ -10,17 +10,6 @@
   <p>Welcome to my chat app</p>
 
   <script src="/socket.io/socket.io.js"></script>
-  <script>
-    // initiating request - making request from client to server to open web socket and keep that connection open.
-    var socket = io();
-
-    socket.on('connect', () => {
-      console.log('Connected to server');
-    });
-
-    socket.on('disconnect', () => {
-      console.log('Disconnected from server');
-    });
-  </script>
+  <script src="/js/index.js"></script>
 </body>
 </html>
